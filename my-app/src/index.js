@@ -4,8 +4,14 @@ import "./index.css";
 
 
 class Hello extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            variable: "Viewer"
+        };
+    }
     render() {
-        return (<div>Hello World</div>);
+        return (<div>Hello World {this.state.variable}</div>);
     }
 }
 
