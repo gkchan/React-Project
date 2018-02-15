@@ -7,11 +7,13 @@ class Hello extends React.Component {
     constructor() {
         super();
         this.state = {
-            variable: "Viewer"
+            variable: "Viewer",
+            number: "0"
         };
     }
     render() {
-        return (<div>Hello World {this.state.variable}</div>);
+        return (<div><h1>Hello World {this.state.variable}</h1>
+            <h3>{this.state.number}</h3></div>);
     }
 }
 
