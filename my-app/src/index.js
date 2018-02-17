@@ -16,7 +16,7 @@ class Hello extends React.Component {
                 <h1>Hello World {this.state.variable}</h1>
                 <h3>{this.state.number}</h3>
                 <button className="hello" onClick={() => this.setState({number: "1"})}>
-                Button</button>
+                Button: {this.state.number}</button>
             </div>);
     }
 }
