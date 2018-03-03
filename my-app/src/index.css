@@ -6,3 +6,7 @@ body {
 .hello {
     background: yellow;
 }
+
+h1 {
+    font-size: 250%;
+}
