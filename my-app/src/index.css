@@ -1,10 +1,14 @@
 body {
-    background: red;
+    background: dodgerblue;
     margin: 50px;
 }
 
+div {
+    background: orange;
+}
+
 .hello {
-    background: yellow;
+    background: tomato;
 }
 
 h1 {
