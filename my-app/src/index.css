@@ -22,4 +22,5 @@ ul {
     border: 1px solid black;
     padding: 20px;
     margin: 30px;
+    list-style-type: none;
 }
