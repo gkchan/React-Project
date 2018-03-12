@@ -9,6 +9,7 @@ div {
 
 .hello {
     background: tomato;
+    float: right;
 }
 
 h1 {
