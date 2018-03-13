@@ -10,6 +10,7 @@ div {
 .hello {
     background: tomato;
     float: right;
+    padding: 5px;
 }
 
 h1 {
