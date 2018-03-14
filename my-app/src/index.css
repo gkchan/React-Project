@@ -9,8 +9,9 @@ div {
 
 .hello {
     background: tomato;
-    float: right;
     padding: 5px;
+    margin: 20px;
+    float: right;
 }
 
 h1 {
@@ -23,6 +24,6 @@ h1 {
 ul {
     border: 1px solid black;
     padding: 20px;
-    margin: 30px;
+    margin: 50px;
     list-style-type: none;
 }
