@@ -21,7 +21,7 @@ class Hello extends React.Component {
                         <li>Second Number: {this.state.number2}</li>
                         <li>Add: {this.state.number1} + {this.state.number2}</li>
                         <li>Sum: {this.state.number1 + this.state.number2}</li>
-                        <li>Random Number: {Math.random()}</li>
+                        <li id="random">Random Number: {Math.random()}</li>
                     </ul>
                     <button className="hello" onClick={() => this.setState({number1: this.state.number1 + 1})}>
                     Add 1 to number1: {this.state.number1}</button>
