@@ -28,7 +28,7 @@ class Hello extends React.Component {
                     <button className="hello" onClick={() => this.setState({number1: this.state.number1 + 1, greeting: "Welcome!"})}>
                     Add 1 to number1: {this.state.number1}</button>
                     &nbsp;
-                    <button className="hello" onClick={() => this.setState({number2: this.state.number2 - 1})}>
+                    <button className="hello" onClick={() => this.setState({number2: this.state.number2 - 1, greeting: "Hi!"})}>
                     Subtract 1 from number2: {this.state.number2}</button>
                 </div>);
     }
