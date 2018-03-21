@@ -8,7 +8,7 @@ class Hello extends React.Component {
         super();
         this.state = {
             variable: "Viewer",
-            greeting: "",
+            greeting: "Click a button",
             number1: 0,
             number2: 4,
         };
